@@ -1,1 +1,38 @@
+@media (max-width:1095px) {
+		body{
+		    background-image:url('img/h1.background.png');
+		    background-attachment:fixed;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		}
+}
+
+@media (max-width:1290px) {
+		body {
+		   background: url('img/h1.background.png') no-repeat center center fixed;
+		   background-size: 100% 100%;
+		   height: 100%;
+		   position: absolute;
+		   width: 100%;
+		 }
+}
+#titulo{
+    margin-top: 6%;
+    font-size: 37px;
+    color: red;    
+}
+#down{
+	font-size: 22px;
+    margin-left: -20%;
+    text-align: center;
+}
+#gob_down{
+	margin-top: 2%;
+}
+#one_gob{
+	left: -14%;
+}
+#two_gob{
+	right: -10%;
+}
 
