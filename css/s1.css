@@ -1,0 +1,27 @@
+body{
+    background-image:url('img/S1.background.png');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mujer_mig_log{
+	    margin-top: -9%;
+}
+
+#all_text{
+	 margin-top: 2%;
+    margin-left: 8%;
+}
+#titulo_in{
+	   font-size: 30px;
+	   color:#3FBCC5;
+}
+.normal_text{
+	    font-size: 20px;
+}
+#inicio{
+	border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 0px solid #000000;
+}
