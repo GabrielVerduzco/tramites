@@ -1,0 +1,38 @@
+body{
+    background-image:url('img/S2.Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#all_text{
+	 margin-top: 2%;
+    margin-left: 8%;
+}
+#titulo_in{
+	   font-size: 30px;
+	   color:#EC1B43;
+}
+.normal_text{
+	    font-size: 20px;
+}
+.mujer_mig_log{
+	    margin-top: -9%;
+}
+
+li {
+  color: red; /* bullet color */
+}
+li span {
+  color: black; /* text color */
+}
+
+#sq_red{
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 7%;
+  font-size: 131%;
+  color: white;
+
+}
+.inicio{
+margin-top: 3%;
+}

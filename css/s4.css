@@ -1,9 +1,9 @@
 body{
-    background-image:url('img/S1.background.png');
-
+    background-image:url('img/S4.Background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .mujer_mig_log{
 	    margin-top: -9%;
 }
@@ -14,12 +14,8 @@ body{
 }
 #titulo_in{
 	   font-size: 30px;
-	   color:#3FBCC5;
+	   color:#F9A717;
 }
 .normal_text{
 	    font-size: 20px;
 }
-.inicio{
-margin-top: 3%;
-}
-
