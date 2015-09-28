@@ -1,0 +1,32 @@
+body{
+  background-image:url('img/S5 Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head_text{
+  color: #C01676;
+  font-size: 30px;
+}
+.text{
+  font-size: 20px;
+}
+.border{
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background-color: #C01676;
+  color: #fff;
+  font-size: 20px;
+}
+.purple{
+  color: #C01676;
+}
+.border-color{
+  border-color: #C01676;
+  border-style: solid;
+}
+.phone{
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
