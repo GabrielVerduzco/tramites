@@ -1,0 +1,35 @@
+body{
+  background-image:url('img/S7. Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offset{
+  margin-top: 2.5%;
+  margin-right: 5%;
+}
+.head_text{
+  color: #8CC63F;
+  font-size: 30px;
+}
+.text{
+  font-size: 20px;
+}
+.border{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #8CC63F;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20%;
+}
+#top-text{
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+.inicio{
+  margin-top: 3%;
+}
+#btn-inicio{
+  margin-top: -7%;
+}

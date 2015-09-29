@@ -1,0 +1,49 @@
+body{
+  background-image:url('img/S6 Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offset{
+  margin-top: 2.5%;
+  margin-right: 5%;
+}
+.head_text{
+  color: #515AD1;
+  font-size: 30px;
+}
+.text{
+  font-size: 20px;
+}
+.border{
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background-color: #515AD1;
+  color: #fff;
+  font-size: 20px;
+}
+.blue{
+  color: #515AD1;
+}
+.border-color{
+  border-color: #515AD1;
+  border-style: solid;
+}
+.phone{
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
+.img-tel{
+  float: right;
+}
+#top-text{
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+.inicio{
+  margin-top: 3%;
+}
+#btn-inm, #btn-pass{
+  cursor: pointer;
+}
