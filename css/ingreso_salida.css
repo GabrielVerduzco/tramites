@@ -3,6 +3,10 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.offset{
+  margin-top: 2.5%;
+  margin-right: 5%;
+}
 .head_text{
   color: #C01676;
   font-size: 30px;
@@ -29,4 +33,17 @@ body{
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
+}
+.img-tel{
+  float: right;
+}
+#top-text{
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+.inicio{
+  margin-top: 3%;
+}
+#btn-inm, #btn-pass{
+  cursor: pointer;
 }
