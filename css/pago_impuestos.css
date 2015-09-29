@@ -47,3 +47,16 @@ body{
 #btn-inm, #btn-pass{
   cursor: pointer;
 }
+strong{
+  color: #515AD1;
+}
+#sp{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  color: #fff;
+}
+.sub-tit{
+  font-size: 25px;
+  color: #515AD1;
+}
