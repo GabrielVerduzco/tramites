@@ -1,0 +1,26 @@
+/*@font-face{*/
+  /*font-family: "MyriadBold";*/
+  /*src: url("fonts/MYRIADPRO-BOLDCOND.woff") format("woff");*/
+/*}*/
+/*@font-face{*/
+  /*font-family: "MyriadRegular";*/
+  /*src: url("fonts/MyriadPro-Regular.woff") format("woff");*/
+/*}*/
+/*@font-face{*/
+  /*font-family: "OswaldHeavy";*/
+  /*src: url("fonts/Oswald-Heavy.woff") format("woff");*/
+/*}*/
+@media (max-width: 1050px) {
+  #sp{
+    font-size: 16px;
+  }
+}
+@media (max-width: 800px) {
+  body{
+    width: 800px;
+  }
+
+  #top-head img{
+    width: 800px;
+  }
+}

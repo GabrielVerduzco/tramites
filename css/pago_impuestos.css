@@ -1,5 +1,5 @@
 body{
-  background-image:url('img/S6 Background.png');
+  background-image:url('img/fondo-6.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -60,3 +60,11 @@ strong{
   font-size: 25px;
   color: #515AD1;
 }
+#top-head{
+  width: 100%;
+}
+#top-head img{
+  width: 100%;
+  position: absolute;
+}
+
