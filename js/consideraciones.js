@@ -1,5 +1,5 @@
 $(document).ready(function  () {
-  $('#inicio').hide();
+  $('#fuentes').hide();
   $('.border').on('click', function  () {
     $('#inicio').hide();
     $('#fuentes').show();

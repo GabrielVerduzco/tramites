@@ -10,6 +10,7 @@ body{
 .head_text{
   color: #8CC63F;
   font-size: 30px;
+  margin-top: 1%;
 }
 .text{
   font-size: 20px;
@@ -23,6 +24,7 @@ body{
   font-size: 20px;
   margin-top: 20%;
   cursor: pointer;
+  text-align: center;
 }
 #top-text{
   margin-bottom: 2%;
@@ -40,4 +42,5 @@ body{
   border-radius: 20px;
   background-color: #b7d694;
   margin-bottom: 10%;
+  margin-top: 5%;
 }
