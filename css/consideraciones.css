@@ -22,6 +22,7 @@ body{
   color: #fff;
   font-size: 20px;
   margin-top: 20%;
+  cursor: pointer;
 }
 #top-text{
   margin-bottom: 2%;
@@ -32,4 +33,11 @@ body{
 }
 #btn-inicio{
   margin-top: -7%;
+}
+#contin{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #b7d694;
+  margin-bottom: 10%;
 }
