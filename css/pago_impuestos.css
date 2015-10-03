@@ -67,4 +67,6 @@ strong{
   width: 100%;
   position: absolute;
 }
-
+.colored{
+  background-color: #2a359b;
+}

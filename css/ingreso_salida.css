@@ -1,5 +1,5 @@
 body{
-  background-image:url('img/S5 Background.png');
+  background-image:url('img/fondo-6.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -25,6 +25,9 @@ body{
 .purple{
   color: #C01676;
 }
+.colored{
+  background-color: #930d5d;
+}
 .border-color{
   border-color: #C01676;
   border-style: solid;
@@ -43,6 +46,13 @@ body{
 }
 .inicio{
   margin-top: 3%;
+}
+#top-head{
+  width: 100%;
+}
+#top-head img{
+  width: 100%;
+  position: absolute;
 }
 #btn-inm, #btn-pass{
   cursor: pointer;
