@@ -10,7 +10,7 @@ body{
 
 #all_text{
 	 margin-top: 2%;
-    margin-left: 8%;
+     margin-left: 10%;
 }
 #titulo_in{
 	   font-size: 30px;
@@ -18,4 +18,61 @@ body{
 }
 .normal_text{
 	    font-size: 20px;
+}
+.border {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    background-color: #F9A717;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+.notes{
+	 margin-top: 9%;
+
+}
+.oculto{
+	display: none;
+}
+.text {
+    font-size: 20px;
+    margin-top: 2%;
+}
+.border-color {
+    border-color: #ff6700;
+    border-style: solid;
+}
+#map_table{
+	background-color: black;
+}
+table, td, th {
+    border: 1px solid white;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+table, td {
+    border: 1px solid white;
+
+}
+
+#sq_red{
+      position: absolute;
+    margin-top: 4%;
+    margin-left: 7%;
+    font-size: 129%;
+    color: white;
+
+}
+#orange{
+            margin-top: 4%;
+}
+.inicio{
+margin-top: 3%;
+}
+.org_text{
+    color: #ff6700;
+
 }
