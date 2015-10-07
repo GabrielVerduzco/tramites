@@ -25,7 +25,7 @@ body{
     border-radius: 100px;
     background-color: #F9A717;
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
 }
 .notes{
@@ -44,7 +44,8 @@ body{
     border-style: solid;
 }
 #map_table{
-	background-color: black;
+	background-color: white;
+    text-align: center;
 }
 table, td, th {
     border: 1px solid white;
@@ -76,3 +77,40 @@ margin-top: 3%;
     color: #ff6700;
 
 }
+.mouse {
+    cursor: pointer;
+}
+.modal_orange {
+    background-color: #F9A717;
+    color: white;
+}
+.mouse {
+    cursor: pointer;
+}
+.close {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+@media (max-width: 957px) {
+  #sq_red{
+    font-size: 14px;
+    margin-top: 3%;
+
+  }
+}
+
+.btn{
+    cursor: pointer;
+}
+
+table { border-collapse: separate; }
+td { border: solid 1px #ff6700; }
+tr:first-child td:first-child { border-top-left-radius: 10px; }
+tr:first-child td:last-child { border-top-right-radius: 10px; }
+tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+
+.colored{
+  background-color: #ff6700;
+}
+

@@ -1,5 +1,5 @@
 body{
-		    background-image:url('img/h1.background.png');
+		    background-image:url('img/F2.png');
 		    background-repeat: no-repeat;
 		    background-size: cover;
 }
@@ -11,7 +11,7 @@ body{
 
 #titulo{
     margin-top: 6%;
-    font-size: 37px;
+    font-size: 63px;
     color: red;    
 }
 #down{
@@ -27,5 +27,11 @@ body{
 }
 #two_gob{
 	right: -10%;
+}
+.mujer_mig_log{
+	    margin-top: -12%;
+}
+.t_cen{
+	text-align: center;
 }
 

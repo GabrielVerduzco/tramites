@@ -29,7 +29,7 @@ li span {
   position: absolute;
   margin-top: 4%;
   margin-left: 7%;
-  font-size: 131%;
+ font-size: 20px;
   color: white;
 
 }
@@ -39,4 +39,25 @@ margin-top: 3%;
 #hoja{
       margin-top: 12%;
     margin-left: -6%;
+}
+@media (max-width: 1173px) {
+  #sq_red{
+     font-size: 17px;
+  }
+}
+@media (max-width: 1220px) {
+  #sq_red{
+     font-size: 15px;
+  }
+}
+@media (max-width: 1095px) {
+  #sq_red{
+     font-size: 16px;
+  }
+}
+@media (max-width: 875px) {
+  .mujer_mig_log{
+     font-size: 16px;
+      margin-left: 39%;
+  }
 }

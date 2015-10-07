@@ -6,7 +6,7 @@ body{
 }
 
 #all_text{
-	 margin-top: 2%;
+	 margin-top: 4%;
     margin-left: 8%;
 }
 #titulo_in{
@@ -33,10 +33,22 @@ li span {
   position: absolute;
   margin-top: 8%;
   margin-left: 7%;
-  font-size: 131%;
+  font-size: 18px;
   color: white;
 
 }
 .inicio{
 margin-top: 3%;
+}
+@media (max-width: 895px) {
+  #sq_red{
+        font-size: 17px;
+
+  }
+}
+@media (max-width: 875px) {
+  #sq_red{
+        font-size: 15px;
+
+  }
 }

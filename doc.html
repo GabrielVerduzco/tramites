@@ -4,134 +4,112 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/s4.css" rel="stylesheet" />
+    <link href="css/style-all.css" rel="stylesheet" />
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/personal.js"></script>
+    <script type="text/javascript" src="js/doc.js"></script>
     <title>Docuemtos de identidad</title>
   </head>
 <body>
-	<div id="" class="col-md-offset-9 col-xs-offset-8 col-xs-4 col-sm-3 col-md-3">
-      <a target="_blank" href="http://mujermigrante.mx/"><img class="mujer_mig_log col-xs-12 col-sm-12 col-md-10" src="css/img/h1.logomm.png"></a>
+ <div id="" class="col-md-offset-9 col-sm-offset-8  col-sm-3 col-md-3 col-xs-3 col-xs-offset-9">
+      <a target='_blank' href="http://mujermigrante.mx/"><img class="mujer_mig_log col-xs-12 col-sm-12 col-md-10" src="css/img/h1.logomm.png"></a>
   </div>
-  <div class="col-md-offset-1 col-md-11 notes">
-        <p class="col-md-5" id="titulo_in">DOCUMENTOS DE IDENTIDAD</p>   
-        <div class="border col-xs-5 col-md-2">
+  <div class="col-md-offset-1 col-md-11 col-sm-offset-1 col-sm-11 col-xs-offset-1 col-xs-11 notes titulo">
+        <p class="col-md-5 col-sm-5 col-xs-5" id="titulo_in">DOCUMENTOS DE IDENTIDAD</p>   
+        <div id='btn-act' class="border col-xs-2 col-md-2  col-sm-2 btn">
           ACTA DE NACIMIENTO
         </div>
-        <div class="border col-xs-4 col-md-1 col-md-offset-1 col-sm-offset-1">
+        <div id='btn-CURP' class="border  col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1 btn">
           CURP
         </div>
-        <div class="border col-xs-4 col-md-2 col-md-offset-1 col-sm-offset-1">
+        <div id='btn-cre' class="border col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1 btn">
           CREDENCIAL PARA VOTAR
         </div>
   </div>
-   <div class="oculto">
+   <div id="principal">
 	<div id="all_text" class="col-xs-10 col-sm-5 col-md-5">
-		<p class="normal_text">￼En esta sección podrás encontrar información acerca de trámites de algunos documentos de identidad que pueden ser indispensables para realizar otros procesos: el acta de nacimiento, la CURP y la credencial para votar.</p>
+		<p class="normal_text text">￼En esta sección podrás encontrar información acerca de trámites de algunos documentos de identidad que pueden ser indispensables para realizar otros procesos: el acta de nacimiento, la CURP y la credencial para votar.</p>
 	</div>
-	<div class="col-md-12">
-		<img class="col-md-offset-1 col-md-11" src="css/img/S4.Imagen.png">
+	<div class="col-md-12 col-sm-8 col-xs-8">
+		<img class="col-md-offset-1 col-md-11 col-sm-offset-3 col-sm-10 col-xs-offset-4 col-xs-9" src="css/img/S4.Imagen.png">
 	</div>
   </div> 
-  <div class="oculto">
+  <div id="acta_nacimiento">
       <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1">
         El registro civil funciona de forma diferente en cada entidad federativa. Si necesitas copia certificada de tu acta de nacimiento, puedes tramitarla por Internet.
       </div>
-      <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color">
-        1. Prepara tus documentos: los necesitarás para proporcionar tus datos.
+      <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color mouse" data-toggle="modal" data-target="#myModal-1">
+       1. Revisa en el listado que se encuentra a continuación si la entidad donde naciste ofrece este servicio en línea.
       </div>
-       <table id="map_table" class="text col-md-8 col-md-offset-2">
+       <table id="map_table" class="text col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">
                     <tr>
-                      <td><a target="_blank" href="http://www.poderjudicialags.gob.mx/ ">Aguascalientes</a></td>
-                      <td><a href='http://www.tsjnay.gob.mx/' target='_blank'>Distrito Federal</a></td>
-                      <td><a href='http://www.tsjnay.gob.mx/' target='_blank'>Morelos</a></td>
-                      <td><a href='http://www.tsjnay.gob.mx/' target='_blank'>Sinaloa</a></td>
-                    </tr>
-                    <tr>
-                      <td><a target="_blank" href="http://www.pjbc.gob.mx/">Baja California</a></td>
-                      <td><a href='http://www.pjenl.gob.mx/' target='_blank'>Durango</a></td>
-                      <td><a href='http://www.pjenl.gob.mx/' target='_blank'>Nayarit</a></td>
-                      <td><a href='http://www.pjenl.gob.mx/' target='_blank'>Sonora</a></td>
+                      <td><a target="_blank" href="http://www.aguascalientes.gob.mx/segob/registrocivil/">Aguascalientes</a></td>
+                      <td><a href='http://www.consejeria.df.gob.mx/registrocivil/' target='_blank'>Distrito Federal</a></td>
+                      <td><a href='http://tramites.morelos.gob.mx/tramites/ver.php?idTramite=SG/DGRC/17' target='_blank'>Morelos</a></td>
+                      <td><a href='http://portalfiscal.sinaloa.gob.mx/index.php/actas-registro-civil' target='_blank'>Sinaloa</a></td>
                     </tr>
                     <tr>
-                      <td> <a target="_blank" href="http://teebcs.org/">Baja California Sur</a></td>
-                      <td><a href='http://www.juiciooraloaxaca.gob.mx/principal.htm' target='_blank'>Oaxaca</a></td>
+                      <td><a target="_blank" href="http://www.bajacalifornia.gob.mx/registrocivilbc/">Baja California</a></td>
+                      <td><a href='http://registrocivil.durango.gob.mx/' target='_blank'>Durango</a></td>
+                      <td><a href='http://tramites.nayarit.gob.mx/' target='_blank'>Nayarit</a></td>
+                      <td><a href='https://www.siiafhacienda.gob.mx/servicios/RegistroCivil/panel/' target='_blank'>Sonora</a></td>
                     </tr>
                     <tr>
-                      <td> <a target="_blank" href="http://www.poderjudicialcampeche.gob.mx/">Campeche</td>
-                      <td><a href='http://www.htsjpuebla.gob.mx/' target='_blank'>Puebla</a></td>
+                      <td> <a target="_blank" href="http://www.lapaz.gob.mx/regcivil/tramites.php">Baja California Sur</a></td>
+                      <td><a href='http://dgregistro_civil.edomex.gob.mx/' target='_blank'>Estado de México</a></td>
+                      <td><a href='http://www.nl.gob.mx/servicios/nacimientos-matrimonios-divorcios-y-defunciones' target='_blank'>Nuevo León</a></td>
+                      <td><a href='http://www.tabasco.gob.mx/tramita-tu-acta' target='_blank'>Tabasco</a></td>
                     </tr>
                     <tr>
-                      <td><a target="_blank" href="http://www.chiapas.gob.mx/funcionarios/estatal/judicial/tribunal-superior">Chiapas</td>
-                      <td><a href='https://www.tribunalqro.gob.mx/' target='_blank'>Querétaro</a></td>
+                      <td> <a target="_blank" href="http://congresocam.gob.mx/leyes/">Campeche</td>
+                      <td><a href='http://sg.guanajuato.gob.mx/registro_civil.php' target='_blank'>Guanajuato</a></td>
+                      <td><a href='http://www.registrocivil.oaxaca.gob.mx/' target='_blank'>Oaxaca</a></td>
+                      <td><a href='http://tamaulipas.gob.mx/consulta-actas-curp/' target='_blank'>Tamaulipas</a></td>
                     </tr>
                     <tr>
-                      <td><a target="_blank" href="http://www.stj.gob.mx/ ">Chihuahua</td>
-                      <td><a href='http://www.tsjqroo.gob.mx/' target='_blank'>Quintana Roo</a></td>
+                      <td><a target="_blank" href="http://www.registrocivil.chiapas.gob.mx/">Chiapas</td>
+                      <td><a href='http://www.guerrero.gob.mx/actas/nacimiento/index.php' target='_blank'>Guerrero</a></td>
+                      <td><a href='http://tramitapue.puebla.gob.mx/index.php/coordinacion-estatal-de-asuntos-internacionales-y-de-apoyo-a-migrantes-poblanos/tramites/item/1642-obtenci%C3%B3n-de-copia-certificada-de-acta-de-nacimiento-y-otras-del-registro-civil-para-poblanos-radicados-en-el-extranjero' target='_blank'>Puebla</a></td>
+                      <td><a href='http://sistemas.tlaxcala.gob.mx/tramites/tar/html_tramite.php?recno=1039' target='_blank'>Tlaxcala</a></td>
                     </tr>
                     <tr>
-                      <td><a target="_blank" href="http://www.poderjudicialcoahuila.gob.mx/tsj/">Coahuila</td>
-                      <td><a href='http://www.stjslp.gob.mx/' target='_blank'>San Luis Potosí</a></td>
+                      <td><a target="_blank" href="http://www.chihuahua.gob.mx/registrocivil/Contenido/plantilla5.asp?cve_canal=15534&Portal=registrocivil">Chihuahua</td>
+                      <td><a href='http://servicios.hidalgo.gob.mx/tramites/busquedatramitesdep.aspx?29' target='_blank'>Hidalgo</a></td>
+                      <td><a href='http://www.dercqro.gob.mx/' target='_blank'>Querétaro</a></td>
+                      <td><a href='http://www.veracruz.gob.mx/servicios-destacados/registro-civil/' target='_blank'>Veracruz</a></td>
                     </tr>
                     <tr>
-                      <td><a target="_blank" href="http://stj.col.gob.mx/">Colima</td>
-                      <td><a href='http://www.stj-sin.gob.mx/' target='_blank'>Sinaloa</a></td>
+                      <td><a target="_blank" href="http://www.registrocivilcoahuila.gob.mx/">Coahuila</td>
+                      <td><a href='http://sgg.jalisco.gob.mx/acerca/areas-de-la-secretaria/registro-civil' target='_blank'>Jalisco</a></td>
+                      <td><a href='http://segob.qroo.gob.mx/portal/RegistroCivil/Nacimiento.php' target='_blank'>Quintana Roo</a></td>
+                      <td><a href='http://www.yucatan.gob.mx/servicios/ver_servicio.php?id=4' target='_blank'>Yucatán</a></td>
                     </tr>
                     <tr>
-                      <td><a target="_blank" href="http://www.poderjudicialdf.gob.mx/es/PJDF/Tribunal_Superior_de_Justicia">Distrito Federal</a></td>
-                      <td><a href='http://www.stjsonora.gob.mx/' target='_blank'>Sonora</a></td>
-
-                    </tr>
-                    <tr>
-                      <td><a target="_blank" href="http://tsjdgo.gob.mx/CGI-BIN/">Durango</td>
-                      <td><a href='http://www.tsj-tabasco.gob.mx/' target='_blank'>Tabasco</a></td>
-                    </tr>
-                    <tr>
-                      <td><a target="_blank" href="http://portal2.edomex.gob.mx/edomex/gobierno/otrosgobiernosypoderes/poderjudicialestatal/index.htm">Estado de México</td>
-                      <td><a href='http://www.pjetam.gob.mx/' target='_blank'>Tamaulipas</a></td>
-                    </tr>
-                    <tr>
-                      <td><a target="_blank" href="http://www.poderjudicial-gto.gob.mx/">Guanajuato</td>
-                      <td><a href='http://www.tsjtlaxcala.gob.mx/' target='_blank'>Tlaxcala</a></td>
-                    </tr>
-                    <tr>
-                      <td><a target="_blank" href="http://tsj-guerrero.gob.mx/">Guerrero</td>
-                      <td><a href='https://www.pjeveracruz.gob.mx/' target='_blank'>Veracruz</a></td>
-                    </tr>
-                    <tr>
-                      <td><a target="_blank" href="http://www.pjhidalgo.gob.mx/">Hidalgo</td>
-                      <td><a href='http://www.poderjudicialyucatan.gob.mx/' target='_blank'>Yucatán</a></td>
-                    </tr>
-                     <tr>
-                      <td><a target="_blank" href="http://www.stjjalisco.gob.mx/">Jalisco</td>
-                      <td><a href='http://www.tsjzac.gob.mx/' target='_blank'>Zacatecas</a></td>
-                    </tr>
-                     <tr>
-                      <td><a target="_blank" href="http://www.poderjudicialmichoacan.gob.mx/web/">Michoacán</td>
-                      <td><a href='https://www.cjf.gob.mx/' target='_blank'>Órgano Federal</a></td>
-                    </tr>
-                     <tr>
-                       <td><a target="_blank" href="http://tsjmorelos2.gob.mx/funcion_consejo.php">Morelos</a></td>
+                      <td><a target="_blank" href="http://www.registrocivil.col.gob.mx/">Colima</td>
+                      <td><a href='http://www.michoacan.gob.mx/actas-de-nacimiento/' target='_blank'>Michoacán</a></td>
+                      <td><a href='gg.slp.gob.mx/WEBSGG.nsf/WEB%20Inicial%20Frame?OpenFrameSet&Frame=WEB%20Inicial&Src=%2FWEBSGG.nsf%2FWEBEnBlanco%3FOpenPage%26AutoFramed' target='_blank'>San Luís Potosí</a></td>
+                      <td><a href='http://registrocivil.zacatecas.gob.mx/' target='_blank'>Zacatecas</a></td>
                     </tr>
                   </table>
-     <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color">
+     <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color mouse" data-toggle="modal" data-target="#myModal-2">
         2. Una vez que hayas ingresado al sitio web de tu Registro Civil, elige la opción que se adapte a tus necesidades.
      </div>
-      <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color">
+      <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color mouse" data-toggle="modal" data-target="#myModal-3">
        3. Reúne los datos del acta que quieres tramitar.
      </div>
-     <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color">
+     <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color mouse" data-toggle="modal" data-target="#myModal-4">
        4. Sigue las instrucciones del sitio y completa tu solicitud electrónica.
      </div>
-      <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color">
+      <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color mouse" data-toggle="modal" data-target="#myModal-5">
       5. Realiza tu pago y guarda tu comprobante
      </div>  
-      <div id="orange" class="col-md-offset-1 col-md-10">
-        <img class="col-md-12" src="css/img/cuadro recomendacion.png">
-        <p class="col-md-9" id="sq_red">Recuerda que este trámite solo es para obtener copias certificadas, por lo que necesitas tener a la mano los datos de tu acta original. Si no cuentas con ellos, tendrás que acudir personalmente al registro civil.</p>
+      <div id="orange" class="col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10">
+        <img class="col-md-12 col-sm-12 col-xs-12" src="css/img/cuadro recomendacion.png">
+        <p class="col-md-9 col-xs-9 col-sm-9" id="sq_red">Recuerda que este trámite solo es para obtener copias certificadas, por lo que necesitas tener a la mano los datos de tu acta original. Si no cuentas con ellos, tendrás que acudir personalmente al registro civil.</p>
       </div>
   </div>
-     <div class="oculto">
+     <div id="CURP">
       <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1">
         ￼La Clave Única de Registro de Población (CURP) es un documento de identidad que sirve para realizar diversos trámites. Puede ser adquirido por personas mexicanas, así como extranjeras que hayan regulado su estancia migratoria en México. Puedes tramitarla directamente o con ayuda de familiares siguiendo estos pasos.
       </div>
@@ -145,14 +123,14 @@
      <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color">
         2. Si no eres de México, consulta los requisitos específicos para cada caso.
      </div>
-    <div class="text col-xs-10 col-md-4 col-xs-offset-1 col-md-offset-1">
-      <a  target="_blank" href="http://renapo.gob.mx/swb/swb/RENAPO/HojaRequisitos"><img class="col-md-12" src="css/img/3link.png"></a>
+    <div class="text col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+      <a  target="_blank" href="http://renapo.gob.mx/swb/swb/RENAPO/HojaRequisitos"><img class="col-md-12 col-sm-12 col-xs-12" src="css/img/3link.png"></a>
      </div>
       <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color">
        3. Acudan tú o tu familiar a uno de los módulos de tu entidad.
      </div>  
-     <div class="text col-xs-10 col-md-5 col-xs-offset-1 col-md-offset-1">
-      <a target="_blank" href=" http://www.gobernacion.gob.mx/es/SEGOB/Directorio_de_modulos_de_la_CURP"><img class="col-md-12" src="css/img/3_1link.png"></a>
+     <div class="text  col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-6 col-xs-offset-1">
+      <a target="_blank" href=" http://www.gobernacion.gob.mx/es/SEGOB/Directorio_de_modulos_de_la_CURP"><img class="col-md-12 col-sm-12 col-xs-12" src="css/img/3_1link.png"></a>
      </div>
        <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1">
         Si ya cuentas con la CURP, puedes consultarla en internet e imprimirla en cualquier momento y desde cualquier lugar.
@@ -160,11 +138,11 @@
       <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color">
        1. Ingresa en el sitio, llena los campos y escribe el código que viene en la parte superior de la página.
       </div> 
-       <div class="text col-xs-10 col-md-5 col-xs-offset-3 col-md-offset-3">
-       <img class="col-md-12" src="css/img/4imagen.png">
+      <div class="text col-md-5 col-md-offset-3 col-sm-5 col-sm-offset-3 col-xs-5 col-xs-offset-3">
+       <img class="col-md-12 col-sm-12 col-xs-12" src="css/img/4imagen.png">
       </div> 
-      <div class="text col-xs-10 col-md-6 col-xs-offset-1 col-md-offset-1">
-        <a target="_blank" href=" https://consultas.curp.gob.mx/CurpSP/"><img class="col-md-12" src="css/img/4_1link.png"></a>
+      <div class="text col-md-6 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-1">
+        <a target="_blank" href=" https://consultas.curp.gob.mx/CurpSP/"><img class="col-md-12 col-xs-12 col-sm-12" src="css/img/4_1link.png"></a>
       </div>
       <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color">
         2. Da clic en “Buscar” para obtener tu CURP y tus datos completos.
@@ -173,7 +151,7 @@
        3. Si lo requieres, da clic en “Imprimir formato”.
      </div>
   </div>
-   <div class="oclto">
+   <div id="credencial_votar">
       <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1">
         ￼Toda la población mexicana mayor de 18 años debe contar con la credencial de elector, pues es el medio de identificación más empleado. El trámite para obtenerla se realiza personalmente y solo puede hacerse en el territorio mexicano.
       </div>
@@ -183,30 +161,193 @@
      <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color">
         2. Prepara tus documentos originales.
      </div>
-      <div class="text col-xs-10 col-md-12 col-md-offset-1">
-       <img class="col-md-4" src="css/img/2a.png">
-       <img class="col-md-3" src="css/img/2b.png">
-       <img class="col-md-3" src="css/img/2c.png">
+      <div class="text col-md-12 col-md-offset-1 col-sm-12 col-sm-offset-1 col-xs-12 col-xs-offset-1">
+       <div class="mouse" data-toggle="modal" data-target="#myModal2-1">
+        <img class="col-md-4 col-sm-4 col-xs-4" src="css/img/2a.png">
+      </div>
+      <div class="mouse" data-toggle="modal" data-target="#myModal2-2">
+        <img class="col-md-3 col-sm-3 col-xs-3" src="css/img/2b.png">
+      </div>
+      <div class="mouse" data-toggle="modal" data-target="#myModal2-3">
+        <img class="col-md-3 col-sm-3 col-xs-3" src="css/img/2c.png">
+      </div>
      </div>
      <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color">
        3. Ubica tu módulo más cercano.
      </div>
-      <div class="text col-xs-10 col-md-4 col-xs-offset-1 col-md-offset-1">
-      <img class="col-md-12" src="css/img/3link.png">
+      <div class="text col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+      <a target="_blank" href="http://ubicatumodulo.ife.org.mx/"><img class="col-md-12 col-xs-12 col-sm-12" src="css/img/3link.png"></a>
      </div>
       <div class="text col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1 border-color">
        4. Haz una cita por Internet o acude directamente a realizar tu trámite.
      </div>  
-     <div class="text col-xs-10 col-md-3 col-xs-offset-1 col-md-offset-1">
-      <img class="col-md-12" src="css/img/4link.png">
+     <div class="text col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+        <a target="_blank" href="https://app-inter.ife.org.mx/siac2011/citas_initCapturaCitas.siac"><img class="col-md-12 col-sm-12 col-xs-12" src="css/img/4link.png"></a>
      </div>
-      <div id="orange" class="col-md-offset-1 col-md-10">
-        <img class="col-md-12" src="css/img/cuadro recomendacion.png">
-        <p class="col-md-9" id="sq_red">Recuerda que tu credencial de elector tiene validez como identificación oficial y para votar hasta el término de su vigencia.</p>
+      <div id="orange" class="col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10">
+      <img class="col-md-12 col-xs-12 col-sm-12" src="css/img/cuadro recomendacion.png">
+        <p class="col-md-9 col-xs-9 col-sm-9" id="sq_red">Recuerda que tu credencial de elector tiene validez como identificación oficial y para votar hasta el término de su vigencia.</p>
       </div>
   </div>
-  <div class="col-md-offset-4 col-md-8">
-      <img class="inicio col-md-offset-2  col-md-2" src="css/img/Botón inicio amarillo .png"> 
-  </div>             
+  <div class="col-md-offset-4 col-md-8 col-sm-8 col-xs-8 col-sm-offset-4 col-xs-offset-4">
+      <a href='index.html'><img src='css/img/Botón inicio amarillo .png' class='col-xs-3 col-md-2 inicio col-md-offset-2 col-xs-offset-2'></a>
+  </div>    
+    <!--Modal inicio-->
+    <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-md" role="document">
+        <div class=" modal-content m1 modal_orange">
+          <div id='head-m0'class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div class="modal-body">
+            <p class="text">
+               Desde 2015, en México existe un convenio para implementar la digitalización de todas las actas. Es por eso que cada vez más estados cuentan con el servicio de solicitud electrónica, aunque el proceso ha sido distinto en cada uno.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal fin-->       
+      <!--Modal inicio-->
+    <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-md" role="document">
+        <div class=" modal-content m1 modal_orange">
+          <div id='head-m0'class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div class="modal-body">
+            <p class="text">
+               Algunos registros ofrecen envío a domicilio (con costo adicional) o incluso actas con firma electrónica,Colima Michoacán San Luís Potosí Zacatecas las cuales puedes imprimir en cualquier lugar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal fin-->      
+          <!--Modal inicio-->
+    <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-md" role="document">
+        <div class=" modal-content m1 modal_orange">
+          <div id='head-m0'class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div class="modal-body">
+            <p class="text">
+               Los datos que te soliciten pueden variar dependiendo cada entidad: año de registro, juzgado y libro donde aparece el acta, o simplemente nombre completo y fecha; por eso es recomendable que cuentes previamente con una copia del acta que quieres duplicar.
+            </p>
+            <p class="text">
+              Si no cuentas con la información requerida, es probable que tengas que acudir a tu Dirección de Registro Civil para solicitar una búsqueda de datos registrales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal fin-->     
+
+   <!--Modal inicio-->
+    <div class="modal fade" id="myModal-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-md" role="document">
+        <div class=" modal-content m1 modal_orange">
+          <div id='head-m0'class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div class="modal-body">
+            <p class="text">
+               Si alguno de los datos que aparecen en tu acta es incorrecto, tendrás que acudir personalmente a las oficinas de Registro Civil de tu entidad para solicitar su corrección.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal fin-->     
+
+   <!--Modal inicio-->
+    <div class="modal fade" id="myModal-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-md" role="document">
+        <div class=" modal-content m1 modal_orange">
+          <div id='head-m0'class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div class="modal-body">
+            <p class="text">
+              La opción más común de pago es con tarjeta de crédito, pero en algunos casos se puede hacer a través de déposito bancario, transferencia electrónica, Pay Pal(servicio de pago por internet), pago directo en oficinas o en ciertas tiendas de autoservicio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal fin-->    
+
+   <!--Modal inicio-->
+    <div class="modal fade" id="myModal2-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-md" role="document">
+        <div class=" modal-content m1 modal_orange">
+          <div id='head-m0'class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div class="modal-body">
+            <p class="text">
+              -Acta de nacimiento.
+            </p>
+             <p class="text">
+              - Carta o certificado de naturalización.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal fin-->   
+
+
+   <!--Modal inicio-->
+    <div class="modal fade" id="myModal2-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-md" role="document">
+        <div class=" modal-content m1 modal_orange">
+          <div id='head-m0'class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div class="modal-body">
+            
+             <p class="text">
+              - Credencial para votar anterior.<br>
+              - Licencia o permiso para conducir.<br>
+              - Credenciales de identificación de instituciones de salud o educativas.<br> 
+              - Cartilla del Servicio Militar Nacional.<br>
+              - Pasaporte.<br>
+              - Cédula profesional.<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal fin-->   
+     <!--Modal inicio-->
+    <div class="modal fade" id="myModal2-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-md" role="document">
+        <div class=" modal-content m1 modal_orange">
+          <div id='head-m0'class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div class="modal-body">
+            
+             <p class="text">
+              - Recibos de pago (luz, teléfono, agua).<br>
+              - Estados de cuenta de servicios privados.<br>
+              - Copia certificada de escrituras de propiedad inmobiliaria.<br>
+              - Contrato de arrendamiento.<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal fin-->  
 </body>
 </html>
