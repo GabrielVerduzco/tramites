@@ -57,3 +57,6 @@ body{
 #btn-inm, #btn-pass{
   cursor: pointer;
 }
+.logo{
+  margin-top: -15%;
+}
