@@ -35,3 +35,24 @@ body{
 	text-align: center;
 }
 
+@media (max-width: 884px) {
+  #titulo{
+      font-size: 48px;
+
+  }
+  #down {
+    font-size: 18px;
+}
+}
+
+@media (max-width: 652px) {
+  #titulo{
+      font-size: 35px;
+
+  }
+  #down {
+    font-size: 15px;
+}
+}
+
+
