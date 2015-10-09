@@ -1,9 +1,9 @@
-body{
-  background-image:url('img/F2.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
+body{
+    background-image:url('img/S4.fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bubble{
   width: 13%;
 }
@@ -28,28 +28,21 @@ body{
   right: -10%;
 }
 .mujer_mig_log{
-  margin-top: -12%;
+  margin-top: -4%;
 }
 .t_cen{
   text-align: center;
 }
 
-@media (max-width: 884px) {
-  #titulo{
-    font-size: 48px;
 
-  }
-  #down {
-    font-size: 18px;
-  }
+
+#top_green{
+  background-color: #3FBCC5;
 }
-
-@media (max-width: 652px) {
-  #titulo{
-    font-size: 35px;
-
-  }
-  #down {
-    font-size: 15px;
-  }
+#icons{
+  margin-top: 2%;
+}
+#button_green{
+  background-color: #3FBCC5;
+    height: 26px;
 }
